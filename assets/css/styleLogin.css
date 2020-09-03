@@ -85,15 +85,13 @@ p .input{
 .logoshop{
     width: 24px;
     height: 24px;
-    margin-left: 100px;
 }
 
 .login{
     background-color: #DB3022;
     border-radius: 25px;
     color: white;
-    font-size: 14px;
-    float: right;    
+    font-size: 14px;   
     margin:10px;
 }
 
