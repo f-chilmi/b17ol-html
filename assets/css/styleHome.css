@@ -371,3 +371,66 @@ nav{
     font-size: 14px;
     color: #9B9B9B;
 }
+
+/* pembahasan */
+.main{
+    margin: 50px 100px;
+}
+
+
+
+.main .slider{
+    position: relative;
+}
+
+.main .slider .indicator .item{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.main .slider .btn{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+}
+
+.main .slider .btn.next{
+    right: 100px;
+}
+
+.main .slider .btn.prev{
+    left: 100px;
+
+}
+
+.main .slider-wrapper{
+    overflow: auto;
+}
+
+.main .slider-wrapper .slider-inner-wrapper{
+    width: max-content;
+}
+
+.main .slider-wrapper .item{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main .slider-wrapper .item .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: grey;
+    font-family: metropolis;
+    font-size: 36px;
+    font-weight: 600;
+}
